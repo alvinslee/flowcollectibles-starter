@@ -1,7 +1,7 @@
 import { config } from "@onflow/fcl";
 
 config({
-   "accessNode.api": "https://rest-testnet.onflow.org",
+   "accessNode.api": "http://localhost:8888",
    "discovery.wallet": "https://fcl-discovery.onflow.org/testnet/authn",
 })
 
